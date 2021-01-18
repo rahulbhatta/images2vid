@@ -10,9 +10,9 @@ Ever wished you could convert a number of images into a video? Perhaps string to
 2. ```pip install -r requirements.txt```
 
 # Usage
-1. Initialize an object of class VidMaker, with the following inputs:
+1. Initialize an object of class VidMaker, with the following inputs:<br />
    a. VidMaker(image_folder_name, image_format, codec_name, output_video_name, output_video_format). 
-   For example:
-       ```vid_obj = VidMaker("images", ".png", "mp4v", "class_video", ".mp4")```
-2. Generate a video with your desired fps rate.
+   For example:<br />
+       ```vid_obj = VidMaker("images", ".png", "mp4v", "class_video", ".mp4")```<br />
+2. Generate a video with your desired fps rate.<br />
    Eg: ```vid_obj.generate_video(10.0)```
